@@ -39,7 +39,12 @@ final class BoardFoot {
      * @return the length of the board foot.
      * */
     private static double lengthCalculation(
-            final double width, final double height) {
+        /**
+        * This constant is the volume of board foot (144in³).
+        * */
+        public static final int BOARD_FOOT_VOL = 144;
+
+        final double width, final double height) {
         return BOARD_FOOT_VOL / width / height;
     }
 
