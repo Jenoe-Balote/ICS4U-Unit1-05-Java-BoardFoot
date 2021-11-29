@@ -16,11 +16,6 @@ import java.io.InputStreamReader;
 final class BoardFoot {
 
     /**
-     * This constant is the volume of board foot (144in³).
-     * */
-    public static final int BOARD_FOOT_VOL = 144;
-
-    /**
      * Prevents instantiation.
      * Throw an exception IllegalStateException when called.
      *
